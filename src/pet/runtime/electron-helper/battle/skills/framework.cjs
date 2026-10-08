@@ -1,0 +1,11 @@
+'use strict';
+const {distance,direction}=require('../core/math.cjs');
+class BaseSkill {
+ constructor(spec,execute){Object.assign(this,spec);this.execute=execute;}
+ usable(engine,fish,target){return fish.is_alive&&!fish.controlled&&!fish.resting&&!fish.cast&&engine.time>=(fish.cooldowns[this.id]||0)&&engine.time>=fish.nextCast&&(!this.range||target&&target.is_alive&&distance(fish.position,target.position)<=this.range);}
+ cast(engine,fish,target){if(!this.usable(engine,fish,target))return false;const dir=target?direction(fish.position,target.position):{x:fish.facing,y:0};fish.cast={skill:this,start:engine.time,phase:'windup',targetId:target?.id||null,aim:target?{...target.position}:{...fish.position},direction:dir,hit:new Set(),activated:false};fish.velocity={x:0,y:0};fish.intent={x:0,y:0};fish.skills_used++;const tempo=(fish.status_effects.rage?.cooldownMultiplier||1)*Math.max(.55,1-engine.frenzy*engine.config.frenzyCooldownStep);fish.cooldowns[this.id]=engine.time+this.cooldown*tempo;fish.nextCast=engine.time+this.cast_time+this.active_time+this.recovery_time+engine.config.castGap*tempo;engine.log('cast',{fish:fish.id,skill:this.id,target:target?.id});engine.coverage.casts[this.id]=(engine.coverage.casts[this.id]||0)+1;if(this.slot==='ultimate'){fish.lastUltimate=engine.time;engine.lastGlobalUltimate=engine.time;engine.say(fish,'ultimate',true);engine.effect('warning',fish.position,this.cast_time,fish.id,this.name);}return true;}
+}
+class MeleeSkill extends BaseSkill{}class ProjectileSkill extends BaseSkill{}class AOESkill extends BaseSkill{}class ControlSkill extends BaseSkill{}class DefenseSkill extends BaseSkill{}class HealSkill extends BaseSkill{}class MovementSkill extends BaseSkill{}class SpecialSkill extends BaseSkill{}class GlobalEventSkill extends BaseSkill{}
+const classes={Melee:MeleeSkill,Projectile:ProjectileSkill,AOE:AOESkill,Control:ControlSkill,Defense:DefenseSkill,Heal:HealSkill,Movement:MovementSkill,Special:SpecialSkill,GlobalEvent:GlobalEventSkill};
+function createRegistry(specs,handlers){return new Map(specs.map(s=>{if(!handlers[s.handler]||!classes[s.category])throw Error('未注册技能执行器：'+s.id);return[s.id,new classes[s.category](s,handlers[s.handler])];}));}
+module.exports={BaseSkill,MeleeSkill,ProjectileSkill,AOESkill,ControlSkill,DefenseSkill,HealSkill,MovementSkill,SpecialSkill,GlobalEventSkill,createRegistry};

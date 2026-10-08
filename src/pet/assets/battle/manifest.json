@@ -1,0 +1,154 @@
+[
+  {
+    "file": "projectiles\\bubble.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "projectiles\\bone.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "projectiles\\shadow.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "items\\food.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "items\\can.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\stun.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\prison.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\shield.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\rage.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\sleep.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\eating.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\smelly.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\counter.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\feign.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\steal.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "icons\\flee.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "ui\\crown.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "effects\\smoke.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  },
+  {
+    "file": "projectiles\\hook.png",
+    "size": [
+      96,
+      96
+    ],
+    "transparent": true
+  }
+]

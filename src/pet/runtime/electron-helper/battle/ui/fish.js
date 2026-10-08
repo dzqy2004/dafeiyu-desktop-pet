@@ -1,0 +1,22 @@
+'use strict';
+const $=id=>document.getElementById(id),animator=new BattleAnimator($('body')),ctx=$('local').getContext('2d'),numberNodes=new Map();
+const labels={IDLE:'发呆',OBSERVE:'观察',MOVE:'找吃的',CHASE:'追击',ATTACK:'出招',CAST_SKILL:'蓄力',HURT:'疼！',KNOCKBACK:'被创飞',STUNNED:'晕了',SLEEPING:'睡觉',HEALING:'干饭',FLEE:'开溜',DEFENDING:'防守',BERSERK:'暴走',DEAD:'淘汰',VICTORY:'冠军'};
+let frames=0,lastFrame=null;
+function render(frame){const f=frame.fish,t=frame.time;lastFrame=frame;frames++;document.querySelector('.hud').style.top=(frame.hudTop??(frame.nearTop?297:93))+'px';document.querySelector('.hud').style.left=(frame.hudLeft??77)+'px';$('speech').style.top=(frame.speechTop??(frame.nearTop?371:30))+'px';$('skill').style.visibility=frame.nearTop?'hidden':'visible';$('fish').style.setProperty('--accent',['#5f9bdb','#dd9b79','#a3b778','#ae93c8','#63b6b5','#d397b6','#b8a265','#82a5ad','#9c91b6','#809fc5'][f.id-1]);$('name').textContent=f.name+' · '+f.title;$('badge').textContent=f.id;$('hp-text').textContent=Math.ceil(f.hp)+' / '+f.maxHp;$('hp').style.width=(f.hp/f.maxHp*100)+'%';$('state').textContent=labels[f.state];$('fish').classList.toggle('victory',f.state==='VICTORY');
+ $('speech').style.left=(frame.speechLeft??175)+'px';$('speech').textContent=f.dialogue?.text||'';$('speech').classList.toggle('show',!!f.dialogue);
+ const available=f.statuses.filter(s=>!['snack','redirect'].includes(s));if($('icons').dataset.keys!==available.join(',')){$('icons').replaceChildren(...available.map(s=>{const im=document.createElement('img');im.src=new URL('../../../../assets/battle/icons/'+s+'.png',location.href).href;im.title=s;return im;}));$('icons').dataset.keys=available.join(',');}
+ const priority=f.state==='DEAD'?100:f.state==='VICTORY'?100:f.state==='STUNNED'?95:f.state==='KNOCKBACK'?85:f.state==='HURT'?80:f.skillAnimation?70:40;
+ let name=f.animation;if(f.skillAnimation&&!['DEAD','VICTORY','STUNNED','KNOCKBACK','HURT','SLEEPING','HEALING','DEFENDING'].includes(f.state))name=f.skillAnimation;if(f.statuses.includes('snack'))name='吃白饭';animator.set(name,priority);
+ let rotation=f.state==='DEAD'?76:f.statuses.includes('feign')?70:f.knockback?Math.sin(t*21)*9:f.hurt?Math.sin(t*62)*5:f.skill==='死亡翻滚'&&f.phase==='active'?t*720:0;const bob=['CHASE','MOVE','FLEE','BERSERK'].includes(f.state)?Math.sin(t*12)*2.2:0;const castScale=f.phase==='windup'?1-Math.sin(f.castProgress*Math.PI)*.04:1;
+ $('body').style.transform=`translateY(${bob-f.jump}px) scaleX(${f.facing>0?-castScale:castScale}) scaleY(${f.state==='DEAD'?.86:castScale}) rotate(${rotation*f.facing}deg)`;
+ $('skill').textContent=f.skill?f.skill+(f.phase==='windup'?' · 蓄力':f.phase==='recovery'?' · 收招':''):'';$('skill').classList.toggle('on',!!f.skill&&f.alive);$('eliminated').textContent=f.state==='DEAD'?f.name+' 淘汰':f.state==='VICTORY'?'大鱼鱼冠军！':'';
+ const fade=!f.alive?Math.max(0,1-Math.max(0,f.deathAge-f.deathHold+.7)/.7):1;$('fish').style.opacity=fade;
+ const seen=new Set();for(const n of f.numbers){seen.add(n.id);let node=numberNodes.get(n.id);if(!node){node=document.createElement('div');node.className='number'+(n.heal?' heal':'')+(n.critical?' critical':'');node.textContent=n.text;$('numbers').append(node);numberNodes.set(n.id,node);}const age=(t-n.start)/(n.until-n.start);node.style.transform=`translate(${n.offset+(n.id%3-1)*10}px,${-age*46}px)`;node.style.opacity=1-age*.9;}
+ for(const [id,node]of numberNodes)if(!seen.has(id)){node.remove();numberNodes.delete(id);}
+ $('countdown').textContent=frame.phase==='countdown'?Math.ceil(frame.countdown):frame.phase==='running'&&t<.55?'开打！':'';
+ ctx.clearRect(0,0,350,420);drawFishEffects(ctx,f,t,frame.effects);if(f.state==='VICTORY'){BattlePaint.draw(ctx,{type:'crown',x:175,y:78,radius:27},t);for(let i=0;i<10;i++){const a=i*.63+t*.65;BattlePaint.star(ctx,175+Math.cos(a)*92,216+Math.sin(a)*82,4,'#f0bf66');}}
+}
+const unsubscribe=battleBridge.onFrame(frame=>{try{render(frame);}catch(err){battleBridge.report(err.stack||err.message);}});
+window.__battleDebug={get frames(){return frames;},get videoFrames(){return animator.frames;},get animation(){return animator.current;},get errors(){return animator.errors;},get snapshot(){return lastFrame;},get videos(){return animator.videos.map(v=>({muted:v.muted,ready:v.readyState,time:v.currentTime,paused:v.paused}));}};
+window.addEventListener('beforeunload',()=>{unsubscribe();animator.dispose();numberNodes.clear();});
+window.addEventListener('error',e=>battleBridge.report(e.message));battleBridge.ready();

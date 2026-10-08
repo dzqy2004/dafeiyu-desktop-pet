@@ -1,0 +1,33 @@
+.pet-bubble{border:1.5px solid #88bdd8;background:linear-gradient(145deg,#fff 5%,#e9f8ff 100%);color:#244a65;border-radius:24px 26px 26px 9px;box-shadow:0 6px 20px #18557d26;font-family:'Microsoft YaHei UI','Segoe UI',sans-serif;font-size:clamp(13px,calc(var(--pet-size)*.037),18px);padding:14px 18px;max-width:min(340px,calc(var(--pet-size)*.85));white-space:normal;overflow-wrap:anywhere}
+.pet-bubble.is-whisper{font-family:'Microsoft YaHei UI','Segoe UI',sans-serif;font-size:clamp(13px,calc(var(--pet-size)*.036),18px);max-width:min(340px,calc(var(--pet-size)*.85));min-width:120px;line-height:1.65}
+.pet-bubble::before{content:'●';position:absolute;right:12px;top:2px;color:#244a65;font-size:10px}
+.pet-bubble::after{left:24%;border-top-color:#b9e1f1}
+.pet-bub-row{display:block;white-space:pre-wrap;max-height:140px;overflow:hidden}
+.pet-balance-caption{font-size:.92em;color:#45667b;margin-top:5px;-webkit-line-clamp:2!important;max-height:3.3em!important}
+body .dsh-pet-chat{width:300px;min-width:260px;max-width:92vw;border:1.5px solid #83b9d8;border-radius:22px 24px 24px 9px;background:linear-gradient(155deg,#f8fdff,#e8f5fc);color:#244a65;font-family:'Microsoft YaHei UI','Segoe UI',sans-serif;box-shadow:0 8px 25px #17568038;overflow:hidden;user-select:text}
+.whale-chat-title{background:linear-gradient(110deg,#22648e,#3b95b2);color:#fff;padding:9px 14px;font-size:13px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
+.whale-chat-title::before{content:'🐳';font-size:20px;margin-right:6px}
+.whale-chat-close{margin-left:auto;border:0;background:transparent;color:#dff4ff;font-size:22px;cursor:pointer;padding:0 2px;line-height:1}
+.whale-chat-history{padding:10px;max-height:160px;min-height:55px;overflow:auto;scrollbar-width:thin;scrollbar-color:#8dc4dd transparent;overscroll-behavior:contain}
+.whale-chat-message{padding:8px 10px;background:#fff;border:1px solid #d5eaf6;border-radius:13px 13px 13px 3px;margin-bottom:8px;font-size:13px;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere}
+.whale-chat-message.user{margin-left:30px;background:#d3effa;border-radius:13px 13px 3px 13px;color:#244a65}
+body .dsh-pet-chat .dsh-pet-chat-input{border-top:1px solid #c7e1f0;padding:10px 12px;max-height:75px;overflow:auto;font-family:inherit;line-height:1.5;font-size:13px}
+.whale-chat-send{display:block;margin:0 10px 9px auto;background:#246c96;border:0;color:#fff;padding:6px 20px;border-radius:16px;cursor:pointer;font-family:inherit;font-size:12px}
+.whale-chat-send:disabled{opacity:.6;cursor:wait}
+body .dsh-pet-chat .dsh-pet-chat-err{max-height:65px;overflow:auto}
+/* Original illustrated skin: content remains real selectable HTML. */
+body .dsh-pet-chat{min-width:280px;max-width:340px;aspect-ratio:3/4;min-height:0;box-sizing:border-box;padding:88px 24px 34px;border:0;border-radius:0;background:transparent url('./whale-chat-skin.png') center/100% 100% no-repeat;box-shadow:none;filter:drop-shadow(0 5px 9px #123d6230);overflow:hidden;display:flex;flex-direction:column}
+.whale-chat-title{background:transparent;color:#244a65;padding:3px 0 5px;font-size:13px;min-height:25px;flex:none}
+.whale-chat-title::before{content:none}
+.whale-chat-close{color:#366386;font-size:22px;line-height:1;padding:0 4px;background:#e5f4fa;border-radius:9px}
+.whale-chat-history{padding:2px 0 5px;max-height:none;min-height:45px;flex:1;overflow:auto}
+.whale-chat-message{font-size:12px;padding:7px 9px;margin-bottom:6px;background:#f2f9ff;border-color:#d4e6f2}
+.whale-chat-message.user{background:#ddecfa;margin-left:18px}
+body .dsh-pet-chat .dsh-pet-chat-input{flex:none;border:1px solid #bad7e7;border-radius:11px;background:#f7fbff;padding:7px 9px;max-height:60px;min-height:34px;font-size:12px;margin-top:3px}
+.whale-chat-send{flex:none;margin:6px 0 0 auto;padding:5px 17px;background:linear-gradient(115deg,#325884,#357c9e);font-size:12px;border:1px solid #c4d6e5;box-shadow:0 1px 0 #fff8 inset}
+body .dsh-pet-chat .dsh-pet-chat-err{flex:none;font-size:11px;padding:4px 0;max-height:40px}
+
+/* Short local quips, optional local meme, complete API history in the illustrated dialog. */
+body .pet-bubble{transform:translate(-50%,var(--bubble-shift-y,0px));padding:10px 13px}
+body .pet-bubble .pet-bub-row{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden;max-height:6.6em;white-space:pre-wrap}
+body .pet-bubble.has-img .pet-bub-img{width:auto;max-width:min(120px,calc(var(--pet-size)*.3));max-height:min(92px,calc(var(--pet-size)*.26));object-fit:contain;margin:0 auto 6px}

@@ -64,11 +64,10 @@
 python scripts/build.py
 ```
 
-脚本使用 Windows 的 .NET Framework C# 编译器，下载并校验固定版本 Electron，输出 `outputs/dafeiyu-desktop-pet-windows-x64.zip` 和 SHA-256 校验文件。缓存与临时文件位于仓库的 `work/`；首次构建需要联网。可用 `--cache-dir` 指定已有的下载缓存。
+脚本恢复经过验证的 EXE 和固定版本 Electron，逐文件核对运行代码、素材与启动器，输出 `outputs/dafeiyu-desktop-pet-windows-x64.zip` 和 SHA-256 校验文件。缓存与临时文件位于仓库的 `work/`；首次构建需要联网。可用 `--cache-dir` 指定已有的下载缓存。`--rebuild-launcher` 使用 Windows 的 .NET Framework C# 编译器重编启动器；修改启动器源码后也会自动重编。
 
 ```powershell
-node --test tests/collision.test.cjs src/pet/runtime/electron-helper/battle/tests/engine.test.cjs
+node --test tests/collision.test.cjs
 ```
 
-已有 21 项普通碰撞测试与 28 项乱斗测试。实际窗口检查覆盖 Windows 单屏 150% 缩放，多显示器几何以自动测试覆盖。十鱼乱斗使用多个 Electron 窗口，资源占用会随机器配置变化。
-
+完整构建会在恢复原素材后运行 21 项普通碰撞测试与 28 项乱斗测试；上面的命令可单独运行碰撞测试。实际窗口检查覆盖 Windows 单屏 150% 缩放，多显示器几何以自动测试覆盖。十鱼乱斗使用多个 Electron 窗口，资源占用会随机器配置变化。

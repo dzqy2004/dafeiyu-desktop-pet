@@ -1,0 +1,8 @@
+{
+  "petVersion": "0.3.6",
+  "petIntegrity": "sha512-Bvhp3AWXvc5/cqz9Veez2ZAm2Qk+UWLkFWeuQupXuKwtoQ7uIbOsOieGw5R0wXMMAwXAf4RuEyYSu5pP0i1FIg==",
+  "electronVersion": "43.3.0",
+  "electronSHA256": "18528bedc6a9b04bdc5efb7b803cbc3cb0e5ea6415d54046e23d464d89a00da9",
+  "petSource": "https://registry.npmjs.org/dsh-pet/-/dsh-pet-0.3.6.tgz",
+  "electronSource": "https://github.com/electron/electron/releases/download/v43.3.0/"
+}

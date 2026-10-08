@@ -1,0 +1,18 @@
+{
+  "IDLE": "待机呼吸休闲",
+  "OBSERVE": "东张西望",
+  "MOVE": "螃蟹走路",
+  "CHASE": "原地左转奔跑",
+  "ATTACK": "用鲸鱼尾巴拍打地面",
+  "CAST_SKILL": "点击回应-傲娇生气",
+  "HURT": "被吓一跳",
+  "KNOCKBACK": "被鼠标拖拽悬空反馈",
+  "STUNNED": "打瞌睡被惊醒",
+  "SLEEPING": "原地小憩沉眠",
+  "HEALING": "大口吃零食",
+  "FLEE": "原地左转奔跑",
+  "DEFENDING": "原地重力下蹲压缩",
+  "BERSERK": "玩游戏气急败坏",
+  "DEAD": "原地小憩沉眠",
+  "VICTORY": "工作状态-雀跃庆祝"
+}

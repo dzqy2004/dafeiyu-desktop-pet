@@ -1,0 +1,8 @@
+/work/
+/outputs/
+/数据/
+**/node_modules/
+**/__pycache__/
+*.log
+*.bak
+*.tmp

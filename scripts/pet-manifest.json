@@ -1,0 +1,1027 @@
+[
+  {
+    "path": "assets/battle/effects/smoke.png",
+    "sha256": "8f4ca17361ab49cb9b9b4550746ea6d98147fe036a252744072d3b257521f31d",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/counter.png",
+    "sha256": "8586715f5a6eddb82eeb15d7b5c57f2a91d313b5d877bbb9bed633f312eb1242",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/eating.png",
+    "sha256": "0c4e7ba7b89370439be059a2a949aa3610e4601447516ba200ac7084dcf8145f",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/feign.png",
+    "sha256": "a4915289d38376c3a5cd482bdb8bf05912b5989f9db094aced98a177a4ee40c9",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/flee.png",
+    "sha256": "f52a7bc801e1239f5e74abae52615c10ede38d94f0981313c1fd0e13002710ec",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/prison.png",
+    "sha256": "a7c363ded2a8bd5d5f6ef1757b5b89b1933b27be6f9866b6463454cf0c8490b2",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/rage.png",
+    "sha256": "7ca5767f332ad4807cd670ebe068a0677cb0ebe090b938c0698b6d3ffaa15389",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/shield.png",
+    "sha256": "f4d5ff6dff4ee5aa410a04d04024e87bac5f682cb9921f0db845cd52bd055d16",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/sleep.png",
+    "sha256": "c3dca10bfff7a9187845b29dc03ad44188adb37642d3dd20e1e04b753066aceb",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/smelly.png",
+    "sha256": "8f4ca17361ab49cb9b9b4550746ea6d98147fe036a252744072d3b257521f31d",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/steal.png",
+    "sha256": "0c4e7ba7b89370439be059a2a949aa3610e4601447516ba200ac7084dcf8145f",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/icons/stun.png",
+    "sha256": "e1e862093be34270dccadcefce71f91910abc4d4fc32627ebbf1272a4499a4d9",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/items/can.png",
+    "sha256": "a54b244ca1e81c283a3f57a06a0a0324ab8d51154282f28e9235153943ecb192",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/items/food.png",
+    "sha256": "f52a7bc801e1239f5e74abae52615c10ede38d94f0981313c1fd0e13002710ec",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/manifest.json",
+    "sha256": "d955f712f0d31fd8ce64fe4d1625ce37b0fe6f43e1c9a803d34b3fafdb63d5c5",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/projectiles/bone.png",
+    "sha256": "c317b8b91c4c0031f5261319a114592f905072e4fec159aba8ec438238609e17",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/projectiles/bubble.png",
+    "sha256": "a7c363ded2a8bd5d5f6ef1757b5b89b1933b27be6f9866b6463454cf0c8490b2",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/projectiles/hook.png",
+    "sha256": "e69395f8412bae099cfaf558ccbfbad5f0ea7d7581e6f0606104ddc2b22a126c",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/projectiles/shadow.png",
+    "sha256": "f52a7bc801e1239f5e74abae52615c10ede38d94f0981313c1fd0e13002710ec",
+    "source": "repository"
+  },
+  {
+    "path": "assets/battle/ui/crown.png",
+    "sha256": "8d24d6119b737ace592e0e01248944bd75dcb263600c201cd3c7552cc7c55e45",
+    "source": "repository"
+  },
+  {
+    "path": "assets/config.jsonc",
+    "sha256": "879c6ae7d7241448937d2d00c2c42fb8bc5661217811731033f239b858bb4ebd",
+    "source": "repository"
+  },
+  {
+    "path": "assets/fonts/上首软糖体.ttf",
+    "sha256": "5f5099a065b5eb3ba55e9bd293af7707fdbd7858bf99d9381b7c6319445c2e62",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/logo.png",
+    "sha256": "fc73bbee8bca13b40ede3ec42af1a827f705ab6dd76b7eaaad489650e0848560",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/Ciallo.png",
+    "sha256": "8cc22d31effa951f6a9e6cbf26ec98c762b86f8569fa81d58e0b10c99db112b3",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/token给妈妈保管.png",
+    "sha256": "1ff2f370be90545ebcb84e718353070d078ec78d1cbb204785f3d7d24d86327d",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/先养着吧.png",
+    "sha256": "74d5ec30a583b9126af1246d41de5d5b23a20c45dc4464e64cb1fa090d869f05",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/厉害了我的鲸.png",
+    "sha256": "30617cca18b9f3be4045dd68ba0c98600c319b68ea755ee7008d8959ff28347e",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/压力一只大肥鱼.png",
+    "sha256": "748d4c2664c6dc40380e883f9ec713a7c2a4fb410401d639111ae3cdbed15819",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/可爱.png",
+    "sha256": "4ac8a61a368d9ee43e58ca5f16db73dd9124ebb7d8ca2fd0486f2f969789dae5",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/吃白饭的大肥鱼.png",
+    "sha256": "2d3a5f07684cee0da30a2b5717dd9a1f226da21b98ca1900097617e5de374428",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/吃饱饱摸肚子.png",
+    "sha256": "128afd60aef0c610261271806beb6df2dedd33f159d3cc65676a2f6fed613585",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/哦鲸鲸.png",
+    "sha256": "96d954bd3f9d60e77273643a96b6c2a5c4680ed4d6a4b3f1fe087189cd8fdd8a",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/大的要来啦.png",
+    "sha256": "253ae478c398ff3238170547033e7b477e2e5eae2400221bbed5ac2064ef1d80",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/就一碗.png",
+    "sha256": "f01520b68b5526814adb9ee3d10e87f5f0ab76c9cea8159c28c09497194340ce",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/死掉了.png",
+    "sha256": "b042ac22e84ba1a1ffffd7ec246b53d40d1db3dc4c19d3443d63f243af14b25b",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/深度睡眠.png",
+    "sha256": "c250e326c62c270cd04efc6f61013dff65b16f5be5d5d06cc1751a59443c155d",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/电死你.png",
+    "sha256": "b0edc4eccf8f93acb8a2d885030994667431373674a3f81c755020ad5c7b5f22",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/誓死践行开源精神.png",
+    "sha256": "96d02fcef0801d2fc04d2c9d8c336b053842f3e949d81ebf97bf438741ced840",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/memes/黎曼猜想没证明喵.png",
+    "sha256": "651c398bb997354ef027f71d593099bbed712dbc7f9c3fc4607a1173edd3b6b9",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/pic/cursor-grab.png",
+    "sha256": "440fc673beedd7450c913741f09ad874e5daf902d5b067775f8a8a72c2783a8c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/pic/cursor-grabbing.png",
+    "sha256": "77465d8055cf8f5ee18a1fd7fd173118fe82d33a63bc4a3e0efd7e7e25dbd3ef",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/pic/notify-approval.png",
+    "sha256": "02cbcc01865d696a6ee0917b8db0057bba11c0761e066874f9932f5980637f24",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/pic/notify-done.png",
+    "sha256": "72a00d121871a0531cf55ce05639f49ef5d08c979be444bd32d1c1519c2d3b13",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/pic/notify-error.png",
+    "sha256": "193eca2e34140ab1d6fb3b7736cade720d7599762e3cee3cdd817aedd3ee1074",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/pic/notify-question.png",
+    "sha256": "c0e0f92e70a42d40fc5e8f8089954e93fbc68df19fd394a68d16de295d099775",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/pic/notify-test.png",
+    "sha256": "8677e74c67b460ee015d689ac2f94ca9075608998fa2d57f6d83ef5db7ebcad4",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/pic/notify-truncated.png",
+    "sha256": "4bb6cf8d920ab88230441f085b8979d5a49e7afb24afc18fcedf1c8550afe490",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/三球抛接.webm",
+    "sha256": "a64c08a4b7e5c3549616faf9dcd418e17f156b4b72d906646e4d57067df70d23",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/下五子棋.webm",
+    "sha256": "0802b6b808f44846b3d194a857fb0ffd38bdea2d7cdb91c9e5e6f311e44f1953",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/东张西望.webm",
+    "sha256": "a20ed02ccc5e72075a3ca83fabb57d9aac5ded699f52d00ec6de72069799fcd5",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/中秋赏月吃月饼.webm",
+    "sha256": "3f64003262d3f129470721495695ecd231795d859693a748914c02c6e3883a3a",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/优雅女仆舞.webm",
+    "sha256": "74209c4c668545ab1e2366e0d1c0709b7bea0312eeba7e89b553d5b977bfe649",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/余额-分文不剩.webm",
+    "sha256": "b232349bdbd962bad7f3a15cfce539c6fadadfd0a286b7f03b03e59cf7aca7a8",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/余额-数金皱眉.webm",
+    "sha256": "94a7e0ee8e1012aadec33492301c893c2d1c5df7e36049dbada8c4a264bf1810",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/余额-袋空如洗.webm",
+    "sha256": "3db780bbc96bb362ced36078fecacfb63b9d292c06b533cfb61797adb553a7f8",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/余额-金袋叮当.webm",
+    "sha256": "6fda0c4ae013cf7906afa1cb846717d097db576343dab11006f14ca5c7a9a34f",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/余额-钱袋如常.webm",
+    "sha256": "f6cb9aa1c829fcbc62478dbddd0e0fcd7beb47433cea751d18b81ccccbec95d3",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/余额-钱袋满溢.webm",
+    "sha256": "dddd6ffc4e763b77360e49c0ccee0987a43c3d253a23e3133c334aabb598b362",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/偷吃零食被抓住.webm",
+    "sha256": "c3b783351ad38fdd931e80b188ecb12d273f21e4794aed2c41f267bdb75ff897",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/写代码.webm",
+    "sha256": "0441287737cdbb993ce90dfa74c67ea4ea3549d8c8ea98946604668464589ed7",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/写福字.webm",
+    "sha256": "7841a47a6997bb7c90d81671d524c44b1afc87ca2e8fceb17d06d99003a67181",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/凭空生花.webm",
+    "sha256": "d1c336bc54c57a282bec180859c7b7b58912b70b5bca7b2f49495cd30cc7d5d6",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/动物环绕.webm",
+    "sha256": "814d41e7d619f9a61f38e5494a0cfd703f8bcfd829a14fa921e1c59acf3ce872",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/原地专心玩魔方.webm",
+    "sha256": "ad54da175ba86b19a84b73b3169fb418b2df016560bb274283f200aca351e712",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/原地小憩沉眠.webm",
+    "sha256": "31d4a6b36a29b2a4fe097384173d3bbeb3fa2f40f526b13191791456bf7507a1",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/原地左转奔跑.webm",
+    "sha256": "79882aedd7b77caaacce1a34dece68e2f001a3dbfa5f9d049c1ce2fc04518d52",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/原地敲击桌面互动.webm",
+    "sha256": "a40f481e89abcc726c89f30b01d085ca8c17a090e71facdd5e7f747e771093eb",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/原地漂浮踏步.webm",
+    "sha256": "7dee1c14672f1f99bebe5e6f1a52d6664b851ed95f9958ac6c12b753a5e5cc81",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/原地跳跃抓碎头顶物品.webm",
+    "sha256": "ccb906c677c7b739eb0dbf5307160e66583562c2a6caec72a9d3d14a202fcccd",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/原地蹲下玩玩具汽车.webm",
+    "sha256": "3ec9978ce3663d9bc4bfe5f5223f0a4e3d9ea6fcd0a6acdbaa802e0cfba36bf2",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/原地重力下蹲压缩.webm",
+    "sha256": "1c8972478a7f347818165db62b468f1624ec11d0862f38aec3078e3870831d24",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/变鸽子.webm",
+    "sha256": "796eba8ebe705e9339035e533e4f913fb8b9810432dcd6e7ae4fc1602e9ce3cf",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/可爱宅舞.webm",
+    "sha256": "4f737e44ea67c20368bdce474b951902c87c37991fb0750da8ed7794df6ec55c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃Token.webm",
+    "sha256": "d46ef798fb189cd7652f63d03a35e6f314e5a598b4a65f76202ec95852eb719c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃冰淇淋融化.webm",
+    "sha256": "17d73682926d6ce4203ad12d9049527e604d448bcc5c82ac5b12950b4ceb0447",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃午餐.webm",
+    "sha256": "e48a70e61d93195c611c2d4041be32a26a114f78c835ff6b2345459ae39a90ce",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃大闸蟹.webm",
+    "sha256": "fbd0f445c15fda1f827e6eb485270ddf9025ac29b3edcac28a5eff7d9aa80f46",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃年糕.webm",
+    "sha256": "ba0c86988687801a5b19d055d728bb182c8a95a0bdd7071dea16b83c1162135c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃早餐.webm",
+    "sha256": "893b61587aeda8ca146e32b596b00903461aab04684a146d84b31965968d60e4",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃晚餐.webm",
+    "sha256": "8902602fb012c29d33392822ab534ed119a136610f6bc2e8c0c51d60afec673a",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃汤圆.webm",
+    "sha256": "53a0f93612bb59c7279010f993a1101b033fc01df1998dd9874d8aea175afa6f",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃白饭.webm",
+    "sha256": "b620413d6fa303a0ed9168dc71453c3bddc10141a0b7edeff87dc2e6e054d502",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃粽子.webm",
+    "sha256": "f3af3217674427fdc5609bf50b170f69669c84cf229cd7b44261c00da7876ade",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃糖葫芦.webm",
+    "sha256": "6900468dc166bfb90e1cfb73de9b41a08c62513483ce1300658340cf942be3cd",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃腊八粥.webm",
+    "sha256": "f821527812875262cc0dda50fe023c603fc89ec566172777c6bff4fa45943011",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃西瓜.webm",
+    "sha256": "0dd992fb7fb51d707d6589cb813a450437a2bd54046709f424a73353e2d7f78d",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃重阳糕.webm",
+    "sha256": "d2b6b466fcb1ee689ae130680bf38311e9988d995879ca3b5b1d9aa0b5438058",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃长寿面.webm",
+    "sha256": "2881e1cd4ca31fd56ca578ce2ee73d21222f0006f237c865d9b2dc1ebc436edd",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃青团.webm",
+    "sha256": "0d99393dd64ddf0b1ec4ab4cf392c86092ab5edf58d12f5b72e325035da23606",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吃饺子.webm",
+    "sha256": "a607391c206cb2a1a977d72f318a6b5bfe95aee4da9b11c9de8724bd9981cc06",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吹气球.webm",
+    "sha256": "3258f91b2000d949ba38f34c1f161b0d5fa148ecffb5a95eb8a3e10b5df7fc87",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/吹笛子.webm",
+    "sha256": "9c8b754a3256778cddd88fbb073b649d5b1d2e5f96e70231bc2c3bee06fa7c78",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/哈欠连天.webm",
+    "sha256": "2b23372e1ff2bc2f9078c09740708c960d4ea021f9fc3cca294d9df11e393ec8",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/堆雪人.webm",
+    "sha256": "478bdc31cc60e55e3efa139b81c7d8680a8cf83aca2304495e6da50a20a09cf5",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/大口吃零食.webm",
+    "sha256": "fdacb534a828b0c669f22a54e8da9bb9b5d731e0132dd5ea946f7badc9229a39",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/女仆屈膝礼仪.webm",
+    "sha256": "6536fb519ba73bbc338d30cf7286b14ffde1278b6d469c64573536dc0f896918",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/小幅度原地360度旋转展示.webm",
+    "sha256": "9f1a927f63c73e3c35ee5f4d2eb58f4a46ac7eca2af69388f320d10cdef8d29c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/小提琴演奏.webm",
+    "sha256": "03816be0fcd499b63ed667e8b87c234094e64c59f1cd222455cf6a27ac832d1c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/工作状态-原地踱步张望.webm",
+    "sha256": "a56c17ef901fa531324a46a04def2381f65922d319ec83dadde34d2a4669e411",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/工作状态-垂头叹气冒汗.webm",
+    "sha256": "ab00c844e62221905574b4c070e0d7b6fa14fb2afa1064c27a160f10e25f7196",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/工作状态-忙碌点按.webm",
+    "sha256": "b5d702e0c04adb7b255ac702001c24da36c8bf95efc891f693f4976986ab2435",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/工作状态-思考冒泡.webm",
+    "sha256": "b4a36cfa28ea5d7089e362a01972c6e880297c6dcd0d39f1994efd889a3c1be5",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/工作状态-清点归档.webm",
+    "sha256": "8c84f58f3a9e7b912e1cbfd89f77eb3652053fc9b2844295c8440cb636305d3b",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/工作状态-雀跃庆祝.webm",
+    "sha256": "3ff681051a0bb4f152d7535d64b7f3194c30298bf56d41e521216a278f135d3e",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/待机呼吸休闲.webm",
+    "sha256": "deb965d05a85dacf5ff4a20faa757846f0d11679598c3ec578a5571487660395",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/悠闲哼歌.webm",
+    "sha256": "358905afc2c81a9ed478bcf121a8f2f19276766b1d382d0067456bd57d1d7dbb",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/扑克魔术.webm",
+    "sha256": "1d44a7624fb027e5f615c747014ab040ddc497f6bdbcb67194a23a53a5dba78c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/打瞌睡被惊醒.webm",
+    "sha256": "7e10c87cfcbd63b20b5a3787be71b0500381d54ea04a5ac0e9d99f59ed49a6d7",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/抽陀螺.webm",
+    "sha256": "693689d7b4d02ae8cda53f8d580de5087287fc339360dd20909342f566e969ba",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/拆礼物.webm",
+    "sha256": "6f781e7eac2b295417c80ff9468902280fdcf3ae5921d59977daa8dab537940c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/插茱萸赏菊.webm",
+    "sha256": "4e1ba56724da3663e2f5480001ab1141a82e8618c316e6e81e3dae84998452f3",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/摇扇纳凉.webm",
+    "sha256": "87d4b9454692484e4809b45071751b2144fc82fd8696fafabb32e19af98350f2",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/撸猫.webm",
+    "sha256": "068d84e944dfce17de1c5a2ee2a4bc391e2848dad88a7df4877ebf23cf38bcec",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/收红包.webm",
+    "sha256": "a0e7a9a5997aff1357c76eeaaad7a01503c320f7017766dd5a42e643daa505c1",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/放孔明灯.webm",
+    "sha256": "cc6540b4651f6603363dd326801921d6ba220ecaaf00828b42d248eb28beeb31",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/放河灯.webm",
+    "sha256": "af744bed1ff20cc1b0492247add45f2b16433fde0b0897c31d6b0579429b788d",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/放烟花.webm",
+    "sha256": "539ac09ae29ed0a11bd828df096f3e72f606529b3c59e29a5fcf3b051779a4d0",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/放风筝.webm",
+    "sha256": "9d9ac75871b1c70a77fc4aaa63dd24778d79cbf492c2c5df42167199c7dd2132",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/整体换装试色.webm",
+    "sha256": "e8e599b12da7f3437c98425f6b192dd0c81a6b63bbba5e7927f53c22f757b094",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/是啊，吃什么.webm",
+    "sha256": "94e1d69e05cc66cc1dc8bf6986efc51dfd71fe22fd34166f9efe7ca2d21c1e8c",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/晨间刷牙.webm",
+    "sha256": "017e384e7e13732fb12428d024ef686e79df5b79bfab0d83faa7fa50653d1bc4",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/涮火锅.webm",
+    "sha256": "f0b345c22cf2841137d215a7b9d50252b8be0ede64887e91fdc9bd09843e3c8f",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/深度思考碎碎念.webm",
+    "sha256": "db66867cd1f5bf68b0638fe1f966d0fdf95d1573523e60c77aa8913706118e82",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/点击回应-傲娇生气.webm",
+    "sha256": "6b7176b98408cb649d1d37b6a6222a21aa6b128187e3e0b2d18550d35ab81064",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/点击回应-元气挥手.webm",
+    "sha256": "48cd729ccdcf746369942ea954d242e9afdd5643e1dac3827fa5e67450eb8776",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/点击回应-害羞惊讶.webm",
+    "sha256": "a04968bbc46d1ebea07f81e5dabd93b0b67a9d07f1371e9887b33075134ad00d",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/点击回应-开心跃动.webm",
+    "sha256": "86dcb0c3dd7b651de9c107e927d57a5c4224599101706dbdcc782fa48bcd0ad7",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/点击回应-挠痒咯咯笑.webm",
+    "sha256": "f228279219f4084323ca1bfef1604f7c77bb3f505d45a8d1747b5ac3f9f2393b",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/照镜子.webm",
+    "sha256": "13dc61c003e500d906b6526765072b7a78c0709491a397d4e70a88ec7ea63310",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/玩水枪.webm",
+    "sha256": "448f732417ac4dcb6ca140cd3d73896aaea7f5dac2876a9a0f7c0776478d7128",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/玩游戏气急败坏.webm",
+    "sha256": "8e406bc52cf2a20c9d288867367c4df7c45a5dc78443bc5c2fdc83835ac0b4c3",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/用鲸鱼尾巴拍打地面.webm",
+    "sha256": "e3f92df2cf182fdcb109ad0a865689d66e0a0d10db14c1528e5b3cb2f0bf090d",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/碎碎念-发呆碎碎念.webm",
+    "sha256": "02da8cc2194250ae9708b137a3deff43fed2ebd40a7aa4a033b6262c3485eb5b",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/碎碎念-对屏碎碎念.webm",
+    "sha256": "fda85ca286e173b7cf868c91829c3445e55c395e0c788b6be310a855b9b37973",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/碎碎念-擦桌碎碎念.webm",
+    "sha256": "bfb616a3e6ed7375826d8fd00b41b9476d2e4bd65e10abddfb98f04c734e30e6",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/穿针乞巧.webm",
+    "sha256": "cf16647ec4cb5634e4ff022bfc139a2233cd8be82f2391472bc842f7014ddc90",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/舞狮头.webm",
+    "sha256": "6d2006b4023d44087cf4c7dc055d1d8f2a8cec32e22610807a2dfea7bb0dc367",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/荡秋千.webm",
+    "sha256": "f32ea98e9c04553ae39939cd76c469192ebc19d98b90ebf93ec4b88bf95b25c9",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/萌化小幽灵.webm",
+    "sha256": "ac2012601d05bf7de7c7cced415b8793b0be3b7cfa569da06c2325f135f7e94f",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/蓝鲸现世.webm",
+    "sha256": "ed72f0ede7c6cd9482d44aa31002214d461b833c456f3ea40a52c3a0ddc20230",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/蝴蝶蜜蜂环绕头顶开花.webm",
+    "sha256": "fd286c78001fe57fc093c06a4b79ef077ade2dacd2a77e011d3f393f587707ec",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/螃蟹走路.webm",
+    "sha256": "5696b0878be38cc450d6eaace837aef1c1b5834f1382bc6c11c2de582f284673",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/被吓一跳.webm",
+    "sha256": "537dde496e0f776e775dec1bb7bfe3fbc5eebf89112469a1a910ad0433ccde66",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/被落叶淹没.webm",
+    "sha256": "91fc8e3dbfcd24546bc30366beb120fb5de7823ed67986dd8032c9c1b29ff079",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/被鼠标拖拽悬空反馈.webm",
+    "sha256": "31373a86026636eecc890db763760309360310eb095cf5575b13c9ca2a6cc80e",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/装点圣诞树.webm",
+    "sha256": "25da448acdbba49c2d4b209d24053b6dd1b79e656273d1f3e659385dc2bc3759",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/讨糖南瓜灯.webm",
+    "sha256": "9535d1a29f780aa2d78ffaabd7ee1765952bf34b2b380e9edc25dc6a3003070b",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/超大伸懒腰.webm",
+    "sha256": "0ac66d918cc5efd49be1273c3830de73eae5f9bdcd5fcb968d1b2f9b487705ad",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/踢毽子.webm",
+    "sha256": "68937b619a44e9ca7ccdfe77e5657f7a9bfa238beb33768378b6f254a16f3dbd",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/轻快摇摆舞.webm",
+    "sha256": "c621d00e1b959b991df8fc420e409b569e768fad7f75d1fb489375d101fee630",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/轻快记录.webm",
+    "sha256": "1da04162fed5cd52bd4a6a6027a6902f50bda0969d34465bc2d332cf3679bbd5",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/骑木马.webm",
+    "sha256": "5f54a98ccac97eac000d799043411f4fc0732096dc51a2ad766552737578f313",
+    "source": "upstream"
+  },
+  {
+    "path": "assets/webm/鲸鱼吐泡泡特效.webm",
+    "sha256": "d64d02059dc1602f7de5aa3135d381351363f021b2bceed47655db322cc71db3",
+    "source": "upstream"
+  },
+  {
+    "path": "lib/client.js",
+    "sha256": "34fd03899054b1f742f241b7d9b3b20d4ca1fb06d2ce1a4a66cbec9a406b96ec",
+    "source": "repository"
+  },
+  {
+    "path": "lib/standalone.js",
+    "sha256": "f5163be54052daaa24a21bab508ddef59bd7a3d4086bffa1ef295d7d02a5ea48",
+    "source": "repository"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "22757dc9c895b2729a2fc684d227cadfb54d5af3dd300029926839e8c4e269ce",
+    "source": "repository"
+  },
+  {
+    "path": "package.json",
+    "sha256": "3e6b40e61c284026af45aa64fbf24fba8425a124e1ff0ce4ff143107228c8cd9",
+    "source": "repository"
+  },
+  {
+    "path": "portable/control.cjs",
+    "sha256": "c3274e20a0d2d39b487ea84ef5b76f0bf12da85a243ac8df8d1f2c3401093eee",
+    "source": "repository"
+  },
+  {
+    "path": "portable/lexicon.js",
+    "sha256": "54f1276445c247d8916e5da12873c8d31a98e9cc6ff5b8a7ee1aaed242c56d3a",
+    "source": "repository"
+  },
+  {
+    "path": "portable/panel.css",
+    "sha256": "3c5ef3b01fe854567a8f7672a139ce822ca7bb66090e9066fabbcabc1eb4c5fd",
+    "source": "repository"
+  },
+  {
+    "path": "portable/panel.html",
+    "sha256": "3b887958b77e7ba236592ecd68b821368e8473e7522dfdddf7b922ca50ec846f",
+    "source": "repository"
+  },
+  {
+    "path": "portable/panel.js",
+    "sha256": "074d0f6163cad48608ce73acb0629185a23b449c2bef8f35c283e6b7ef5ca846",
+    "source": "repository"
+  },
+  {
+    "path": "portable/services.mjs",
+    "sha256": "00c4c181e4360fa3815ae45c10496ef353a7c9e95ad89112bd942a9c1702d433",
+    "source": "repository"
+  },
+  {
+    "path": "portable/whale-chat-skin.png",
+    "sha256": "c9fa2fa3450c2f023254df3a2a106afc484f4f60e12650e24b86d7577221a4b1",
+    "source": "repository"
+  },
+  {
+    "path": "portable/whale.css",
+    "sha256": "00facce4d2d6926dbdf354fd5cb80fb7df97363d74cc11a66e275376d240e7a2",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/core/ai.cjs",
+    "sha256": "4506685db69337f01bb34b7b56fb426f022971a335734031206c00cad355a826",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/core/catalog.cjs",
+    "sha256": "61e21d2271c3b06b14b1f682a98fef960cdedfc09013c601d9b6e10a3e3d94a4",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/core/content.cjs",
+    "sha256": "b328ef292a737ab4e282ca8be9de0847b33e61dc110ccf02c2f32d8aaa41aee2",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/core/engine.cjs",
+    "sha256": "267d191677dc4fdd4ad33c5e3086ce3333d5eba84b43507eb6a1fce856a9b37f",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/core/fish.cjs",
+    "sha256": "956ed6d44e25f55f1fd92f44fec1b4b5833d07f6857e64007c8c224bbeae39d0",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/core/math.cjs",
+    "sha256": "1479b64b58c4e797883899c9ef0c0f90a4b2a99ac5864aec6b27992622666b21",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/core/setup-config.cjs",
+    "sha256": "ec969e4734d8c5976ba99cf0ccfa7a41c73c9f55d950b6233a76e191e773df55",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/data/animations.json",
+    "sha256": "ee58b00eee60e1de6120ec470a8564de01f85e725c4aea8934fab61ee28f7dd9",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/data/battle_config.json",
+    "sha256": "63942efd16ea345d352ac88c7f53ac4b6bac6e243f07db07e2c527aaf6f9c53e",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/data/dialogues.json",
+    "sha256": "a9be6b3fdb42f836219b561582a59dd92121c66509f848d926db7e6894699f96",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/data/personalities.json",
+    "sha256": "9b8058e5ee8c614654a0d7105778cf455efb89a12fff7b21f5a7a0100a7d4f45",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/data/skills.json",
+    "sha256": "e1525135f4f09fb13d6e2a5ec77ce32003d3d7539d953bc195c89ce4512c65b2",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/desktop/manager.cjs",
+    "sha256": "2d1a24e626be45ce909cd3f696eb2f3f897a9a36d065fcc0510f432c9d6e55ef",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/desktop/normal-adapter.js",
+    "sha256": "dd6d7df9d42de56186e7776737c45b10a14c9c475912a3f5fce117f7f8987638",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/desktop/preload.cjs",
+    "sha256": "a5ad2be5795ffe8a65ae4414800c3b40de2e60b9601fe480095d7f415979276c",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/skills/actions.cjs",
+    "sha256": "600f628e2606fd00ec9979c278c197217fb3af283c3f9637b404cbddbe5a813c",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/skills/framework.cjs",
+    "sha256": "8790f33fc677a20dc16c55e9c9b1b0dc83d0edd78c67b1c362dc4f2ddad6d11f",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/tests/engine.test.cjs",
+    "sha256": "e9a76b41b6ddcfb8180a23a19ed9da066b09b503528f6889bab4593a40041b7d",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/animator.js",
+    "sha256": "df1a0f2d1e33afcb1e564b97157af29b2545f3a727b5750534d721c381aac13d",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/effects.html",
+    "sha256": "2a71c8d72aecc0c1e4d7479cbf7aa49cd7c04dcd333ecac6df96b92f6296d4ac",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/effects.js",
+    "sha256": "a9ed8b7690f58450b53921b2dc78d5a0125b8a5b13b88f24190e050ebc6e3726",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/fish.css",
+    "sha256": "7f0682c6d89e31be85182e3444327b53e40e2cfa0e81946de209d259d703226a",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/fish.html",
+    "sha256": "30adb230987efba28b6a1512e2ed8979761f000620ba16f5db854f1b2effd342",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/fish.js",
+    "sha256": "0a47000a53cdf561a09bb35e3e2f5cf187c73a993e471babefec823a1e3efa95",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/painting.js",
+    "sha256": "f0b0cf768d51b790281c3a695641b7c59ec57c0ce2b08604eda4655c44707b22",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/panel.css",
+    "sha256": "9471e18565f6f943ac5898e868c04e1f765bc83436f598217fee52c6cf982efe",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/panel.html",
+    "sha256": "ff88ab5a052018f0f95a0b151aa8888c2a39a4196383c9a5972e1e305f8c195c",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/battle/ui/panel.js",
+    "sha256": "b198c95a634f21309025aaa4b82e2108e4f6865a7676e32320f0f06cc9aaff84",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/constants.js",
+    "sha256": "73e3fafd3c5c82762a8d45e064ada048bf01b86cf76919b371db87fcce55e948",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/desktop-collision.js",
+    "sha256": "5b56dfcd03e227041d153311e6ee9423cebbe9937ffe9140393fbf869605a391",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/events.js",
+    "sha256": "fef92ac071274b37d89de0a518db9d590a03b99cea1bac640d5aa742da9817bb",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/host-liveness.js",
+    "sha256": "6cb68274436cbcfda99f2f991f929f8c2db596153081b107549f13d72b64c3cf",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/index.html",
+    "sha256": "325f682b59ce815f42dfa4c82694236fdc7fe972a71391c3bae4ee66a73de9c1",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/main.js",
+    "sha256": "5290a8aa25b88f2cb542775df7a8dd79f01c56ac381bb0e6166f1979cc469792",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/package.json",
+    "sha256": "8cf1275c9a520d92c4e997b7e28074de9881c6394522c6ca15d0fc84cd8c7ca1",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/pointer-target.js",
+    "sha256": "1abacab42d36f3e9c1cb785a6c19e2126a075af718a596f2c2f35aafbe60759a",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/preload.js",
+    "sha256": "a12fdbfa4ed6edaf605a53629c9a989120c806ad8cdd28b73a4b140c1a8d9240",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/renderer.js",
+    "sha256": "3a6cad836fa37294e65967c4480c4553be08280213c7ce62ceab2a63f7e16e93",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/shared-core.js",
+    "sha256": "3b66bc0208bbb16708d265010cc001358505335aeb0bc908512a3866d15b5c71",
+    "source": "repository"
+  },
+  {
+    "path": "runtime/electron-helper/sprite.js",
+    "sha256": "c38406588d70d2b378f470df6b6346d833480f4c0bfa46cc489804594b8d32b1",
+    "source": "repository"
+  }
+]

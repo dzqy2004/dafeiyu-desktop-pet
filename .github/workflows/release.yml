@@ -1,0 +1,39 @@
+name: Build Windows portable release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check whether the final release exists
+        id: release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view v1.0.0 --repo $env:GITHUB_REPOSITORY *> $null
+          if ($LASTEXITCODE -eq 0) { 'exists=true' >> $env:GITHUB_OUTPUT }
+          else { 'exists=false' >> $env:GITHUB_OUTPUT }
+          exit 0
+      - name: Build and test
+        if: steps.release.outputs.exists != 'true'
+        run: python scripts/build.py
+      - name: Publish portable package
+        if: steps.release.outputs.exists != 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v1.0.0 outputs/dafeiyu-desktop-pet-windows-x64.zip outputs/SHA256SUMS.txt --target $env:GITHUB_SHA --title "大肥鱼桌宠 · Windows 独立便携版" --notes-file RELEASE_NOTES.md
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
