@@ -6,7 +6,7 @@
 
 ## 下载与运行
 
-前往 [Releases 下载 Windows 完整包](https://github.com/lt1812969440-stack/dafeiyu-desktop-pet/releases/latest)，选择 `dafeiyu-desktop-pet-windows-x64.zip`。
+前往 [Releases 下载 Windows 完整包](https://github.com/dzqy2004/dafeiyu-desktop-pet/releases/latest)，选择 `dafeiyu-desktop-pet-windows-x64.zip`。
 
 1. 将压缩包完整解压到 D 盘一个文件夹。
 2. 双击其中的 `大肥鱼桌宠.exe`。

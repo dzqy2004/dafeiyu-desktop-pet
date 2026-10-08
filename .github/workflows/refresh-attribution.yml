@@ -1,0 +1,41 @@
+name: Refresh release attribution
+on:
+  push:
+    branches: [main]
+    paths:
+      - LICENSE
+      - .github/workflows/refresh-attribution.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: release-attribution
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify application code is unchanged
+        shell: pwsh
+        run: |
+          git diff --exit-code v1.0.0 $env:GITHUB_SHA -- src scripts tests
+          if ($LASTEXITCODE -ne 0) { throw 'Attribution refresh cannot replace application changes.' }
+      - name: Restore and verify the final portable package
+        run: python scripts/build.py --skip-tests
+      - name: Refresh the existing release and source archive
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload v1.0.0 outputs/dafeiyu-desktop-pet-windows-x64.zip outputs/SHA256SUMS.txt --clobber
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          gh api --method PATCH "repos/$env:GITHUB_REPOSITORY/git/refs/tags/v1.0.0" -f "sha=$env:GITHUB_SHA" -F force=true
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          gh release edit v1.0.0 --target $env:GITHUB_SHA --notes-file RELEASE_NOTES.md
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
