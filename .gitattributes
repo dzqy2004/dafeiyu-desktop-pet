@@ -1,3 +1,5 @@
-* text=auto
+# Preserve exact runtime bytes for the integrity manifests.
+* -text
 *.png binary
 *.ico binary
+*.exe binary
