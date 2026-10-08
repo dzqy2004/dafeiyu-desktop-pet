@@ -1,9 +1,13 @@
-name: Refresh release attribution
+name: Refresh release documentation
 on:
   push:
     branches: [main]
     paths:
       - LICENSE
+      - README.md
+      - RELEASE_NOTES.md
+      - docs/**
+      - THIRD_PARTY_NOTICES.md
       - .github/workflows/refresh-attribution.yml
   workflow_dispatch:
 permissions:
@@ -25,7 +29,7 @@ jobs:
         shell: pwsh
         run: |
           git diff --exit-code v1.0.0 $env:GITHUB_SHA -- src scripts tests
-          if ($LASTEXITCODE -ne 0) { throw 'Attribution refresh cannot replace application changes.' }
+          if ($LASTEXITCODE -ne 0) { throw 'Documentation refresh cannot replace application changes.' }
       - name: Restore and verify the final portable package
         run: python scripts/build.py --skip-tests
       - name: Refresh the existing release and source archive
@@ -39,3 +43,4 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           gh release edit v1.0.0 --target $env:GITHUB_SHA --notes-file RELEASE_NOTES.md
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+

@@ -10,6 +10,6 @@
 - 2～10 鱼桌面乱斗、10 种性格、技能图鉴、逐鱼配招及场外事件控制。
 - 排名、战斗统计、最近对局和饭碗榜。
 
-下载 `dafeiyu-desktop-pet-windows-x64.zip`，完整解压到 D 盘后双击“大肥鱼桌宠.exe”。请保留旁边的“资源”文件夹。已包含 Electron，无需安装 Node.js、Python 或 DSH。日常台词与乱斗离线可用，自由聊天需配置自己的 API。默认开机启动可在托盘或设置中关闭。
+下载 `dafeiyu-desktop-pet-windows-x64.zip`，完整解压到 D 盘后双击“大肥鱼桌宠.exe”。请保留旁边的“资源”文件夹。完整包自带全部运行环境，解压后双击 EXE 即可使用。日常台词与乱斗离线可用，自由聊天需配置自己的 API。默认开机启动可在托盘或设置中关闭。
 
 原项目与原角色动画：https://github.com/PC2005-cloud/dsh-pet （MIT License）。人设参考：https://github.com/ERUIHNIYHBKBNF/dafeiyu-persona 。包内保留原版权与第三方许可文件。本项目为社区二次开发。

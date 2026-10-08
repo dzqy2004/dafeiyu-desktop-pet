@@ -13,7 +13,7 @@
 3. 右键桌宠或托盘图标，可以打开设置与聊天、创建分身、选择动作或开始电子斗蛐蛐。
 4. 退出请使用托盘菜单中的“退出大肥鱼”。
 
-支持 Windows 64 位，已包含 Electron 运行环境，无需安装 Node.js、Python 或 DSH。EXE 与“资源”文件夹必须放在一起。请下载 Release 完整包；GitHub 的“Download ZIP”是开发源码包。
+支持 Windows 64 位。完整包自带全部运行环境，解压后双击 EXE 即可使用。EXE 与“资源”文件夹必须放在一起。请下载 Release 完整包；GitHub 的“Download ZIP”是开发源码包。
 
 ## 相对原项目的主要扩展
 
@@ -54,11 +54,11 @@
 
 本仓库的软件修改以 MIT License 发布。详见 [LICENSE](LICENSE)、[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 及 `licenses/`。原角色、商标与素材的权利归各自权利人所有。
 
-## 开发与构建
+## 开发与构建（普通用户可跳过）
 
 仓库提供最终运行代码、C# 启动器源码、构建脚本和测试。原动画等未修改素材由构建脚本从固定版本 npm 包恢复，并核对散列；修改素材保存在仓库中。最终修改直接作用于运行代码，不依赖重新编译上游 TypeScript。
 
-在 Windows 安装 Python 3.10+ 与 Node.js 后：
+以下步骤仅用于修改源码、重新打包，普通用户下载完整包即可使用。开发者在 Windows 准备 Python 3.10+ 与 Node.js 后：
 
 ```powershell
 python scripts/build.py
